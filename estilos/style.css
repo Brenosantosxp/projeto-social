@@ -6,3 +6,32 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html , body { 
+    height: 100vh; /* ALTURA TOTAL DO NAVEGADOR */
+    width: 100vw; /* LARGURA TOTAL DO NAVEGADOR */
+    background-color: rgb(237, 187, 187);
+}
+
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover; /* TAMANHO DE FUNDO */
+    background-attachment: fixed; /* ANEXO DE FUNDO FIXO */
+}
+
+main {  /* CONTEÚDO PRINCIPAL DO SITE */
+    height: 100vh; /* ALTURA DO CONTEÚDO PRINCIPAL */
+    position: relative; 
+}
+
+section#telefone { /* SEÇÃO + ID */
+    position: absolute;
+    top: 50%; /* CIMA */
+    left: 50%; /* ESQUERDA */
+    transform: translate(-50% , -50%); /* MENOS METADE ESQUERDA , MENIS METADO PRA CIMA / CENTRALIZAR  */
+
+
+    height: 627px; /* ALTURA */
+    width: 311px;  /* LARGURA */ 
+    background: url(../imagens/frame-iphone.png) no-repeat;
+    
+}
