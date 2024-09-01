@@ -1,0 +1,8 @@
+@charset "UTF-8"; /* CONFIGURAÇÃO PARA CARACTERES E ACENTUAÇÃO */
+
+* { /* CONFIGURAÇÃO GLOBAL PARA O SITE TODO */
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
