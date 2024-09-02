@@ -13,7 +13,7 @@
 html , body { 
     height: 100vh; /* ALTURA TOTAL DO NAVEGADOR */
     width: 100vw; /* LARGURA TOTAL DO NAVEGADOR */
-    background-color: rgb(237, 187, 187);
+    background-color: rgb(255, 255, 255);
 }
 
 body{
